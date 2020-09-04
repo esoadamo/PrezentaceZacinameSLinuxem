@@ -250,6 +250,7 @@
             <section>
                 <h3>CTRL + ALT + T</h3>
                 <ul>
+                    <li><code>exit</code> - ukončí</li>
                     <li><code>ls</code> - seznam souborů</li>
                     <li><code>cd SLOZKA</code> - změní aktivní adresář</li>
                     <li><code>cp A B</code> - kopíruj A na B</li>
@@ -293,6 +294,53 @@
                 <a href="https://termux.com/">
                     <img src="assets/img/cli/termux.png" style="height: 60vh" alt="obr">
                 </a>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Všechno je soubor</h2>
+            </section>
+            <section>
+                <img src="assets/img/file/ll.png" alt="ls -l">
+            </section>
+            <section>
+                <h3>chmod</h3>
+                <p><code>chmod 752 file</code></p>
+                <p><code>chmod +x file</code></p>
+                <p><code>chmod +X -R dir</code></p>
+                <table>
+                    <tbody>
+                    <tr><td>0</td><td>-</td></tr>
+                    <tr><td>1</td><td>x</td></tr>
+                    <tr><td>2</td><td>w</td></tr>
+                    <tr><td>4</td><td>r</td></tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h3>chown</h3>
+                <p><code>chown root file</code></p>
+                <p><code>chown root:nobody file</code></p>
+                <p><code>chown -R root dir</code></p>
+                <p><code>chgrp root file</code></p>
+            </section>
+            <section>
+                <h3>/etc/passwd</h3>
+                <img src="assets/img/file/passwd.png" alt="psswd">
+            </section>
+            <section>
+                <h3>Užitečné soubory</h3>
+                <ul>
+                    <li><code>/etc/fstab</code></li>
+                    <li><code>/etc/hosts</code></li>
+                    <li><code>/etc/hostname</code></li>
+                    <li><code>/etc/rc.local</code></li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Pokročilejší práce s bashem</h2>
             </section>
         </section>
         <section>
